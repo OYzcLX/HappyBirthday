@@ -80,11 +80,11 @@ const animationTimeline = () => {
     .to(".container", 0.1, {
       visibility: "visible"
     })
-    .from(".one", 0.7, {
+    .from(".one", 1.4, {
       opacity: 0,
       y: 10
     })
-    .from(".two", 0.4, {
+    .from(".two", 0.8, {
       opacity: 0,
       y: 10
     })
@@ -196,7 +196,7 @@ const animationTimeline = () => {
     )
     .staggerFrom(
       ".idea-6 span",
-      0.8,
+      2.8,
       {
         scale: 3,
         opacity: 0,
@@ -207,7 +207,7 @@ const animationTimeline = () => {
     )
     .staggerTo(
       ".idea-6 span",
-      0.8,
+      2.8,
       {
         scale: 3,
         opacity: 0,
