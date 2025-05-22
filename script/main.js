@@ -124,7 +124,7 @@ const animationTimeline = () => {
       scale: 0.2,
       opacity: 0
     })
-    .from(".fake-btn", 0.3, {
+    .from(".-btn", 0.3, {
       scale: 0.2,
       opacity: 0
     })
@@ -137,7 +137,7 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "#FFC0CB"
+      backgroundColor: "#E0C0CB"
     })
     .to(
       ".four",
